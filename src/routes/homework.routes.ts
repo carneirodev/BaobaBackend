@@ -4,7 +4,11 @@ import { getCustomRepository } from 'typeorm';
 
 import HomeworkRepository from '../repositories/HomeworksRepository';
 import CreateHomeworkService from '../services/CreateHomeworkServices';
+import User from '../models/User';
 
+interface Response {
+    user: User;
+}
 const homeworksRouter = Router();
 
 // homeworksRouter.get('/', async (request, response) => {
