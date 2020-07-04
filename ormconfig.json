@@ -6,7 +6,7 @@
     "password": "baobawesports",
     "database": "postgres",
     "entities":[
-        "./src/models/*.ts"
+        "./src/models/*{.ts,.js}"
     ],
     "migrations": [
         "./src/database/migrations/*.ts"
