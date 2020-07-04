@@ -1,10 +1,10 @@
 {
     "type": "postgres",
-    "host": "localhost",
-    "port": 4242,
+    "host": "baobadatabase.cxcs5xtq9ixh.sa-east-1.rds.amazonaws.com",
+    "port": 5432,
     "username": "postgres",
-    "password": "baoba",
-    "database": "baoba_database",
+    "password": "baobawesports",
+    "database": "postgres",
     "entities":[
         "./src/models/*.ts"
     ],
