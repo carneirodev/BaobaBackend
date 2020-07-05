@@ -4,6 +4,7 @@ import userRouter from './user.routes';
 import sessionsRouter from './sessions.routes';
 import roomsRouter from './rooms.routes';
 import studentHomeworkRouter from './studentHomework.routes';
+import editUserRouter from './editUser.routes';
 
 import authMiddleware from '../middlewares/ensureAuthenticated';
 
@@ -15,7 +16,8 @@ routes.use('/sessions', sessionsRouter);
 routes.use(authMiddleware);
 
 routes.use('/homework', homeworkRouter);
+routes.use('/homework', homeworkRouter);
 routes.use('/rooms', roomsRouter);
-routes.use('/student', studentHomeworkRouter);
+routes.use('/logged', editUserRouter);
 
 export default routes;
