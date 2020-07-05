@@ -22,7 +22,7 @@
       "user_state":"MG",
       "user_city":"Pocos"   
       ```
- #### Sessions
+ #### Autenticação de usuário
 - POST - /sessions
     - Body
          ```jsx
