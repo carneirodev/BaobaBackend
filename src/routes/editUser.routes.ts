@@ -44,7 +44,7 @@ loggedRouter.put('/', async (request, response) => {
         const user = await userRepository.update(user_id, {
             user_name,
             user_email,
-            hashedPassword,
+            user_password: hashedPassword,
             user_country,
             user_state,
             user_city,
