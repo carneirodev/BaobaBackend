@@ -1,14 +1,15 @@
-# Documentacao da API BAOBA
+# Documentação da API BAOBA
 
 ![APRESENTACAO-1-01a720d440f2b35002.jpg](https://imgurl.me/images/2020/07/06/APRESENTACAO-1-01a720d440f2b35002.jpg)
 ----------
+
 ![APRESENTACAO-1-02891fac2a11d986b6.jpg](https://imgurl.me/images/2020/07/06/APRESENTACAO-1-02891fac2a11d986b6.jpg)
 ----------
 
 
 # Rotas da API
 ### Link da API: [http://ec2-18-231-167-59.sa-east-1.compute.amazonaws.com:3000](http://ec2-18-231-167-59.sa-east-1.compute.amazonaws.com:3000/)
-#### Criar usuario
+#### Criar usurário
 - POST - /student
     - Body
          ```jsx
