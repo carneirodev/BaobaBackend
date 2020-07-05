@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { getRepository } from 'typeorm';
+import { hash } from 'bcryptjs';
 
 import User from '../models/User';
 
@@ -39,10 +40,11 @@ loggedRouter.put('/', async (request, response) => {
         } = request.body;
         const { user_id } = request.user;
         const userRepository = getRepository(User);
+        const hashedPassword = await hash(user_password, 8);
         const user = await userRepository.update(user_id, {
             user_name,
             user_email,
-            user_password,
+            hashedPassword,
             user_country,
             user_state,
             user_city,
