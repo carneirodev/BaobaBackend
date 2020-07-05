@@ -18,6 +18,7 @@ routes.use(authMiddleware);
 routes.use('/homework', homeworkRouter);
 routes.use('/homework', homeworkRouter);
 routes.use('/rooms', roomsRouter);
+routes.use('/student', studentHomeworkRouter);
 routes.use('/logged', editUserRouter);
 
 export default routes;
