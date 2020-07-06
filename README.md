@@ -28,6 +28,21 @@ Por falar em recompensas, temos as flores e frutos. Duas moedas, dois propósito
  E tudo isso é registrado na ÁRVORE DO CONHECIMENTO, tanto para o professor, quanto para o aluno.
 
 ### E aí, vamos juntos, plantar essa ideia e colher os frutos amanhã?
+---
+
+## Layout
+Participamos da elaboração do Layout com UX e UI. Foram criados todos os cenários possíveis da solução, mas focamos apenas no essencial.
+
+Eles disponibilizaram os layouts aqui:
+
+#### XD Adobe (Versão dos professores):
+[Aqui](https://xd.adobe.com/view/e32c4527-4c41-4a67-895b-a314bda9dd24-b67f/?fullscreen)
+
+#### XD Adobe (Versão dos alunos):
+[Aqui](https://xd.adobe.com/view/9e785aa3-a752-49ad-b9f7-02419ffd5cd3-cb2b/?fullscreen)
+ 
+## Link da versão demo do App  
+https://www.youtube.com/watch?v=x1wtNxd0-Yc&feature=youtu.be
 ----
 ## Como rodar o template
 Com seu repositório baixado na sua máquina, execute o comando yarn na pasta do projeto clonado para instalar todas as dependências
