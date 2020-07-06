@@ -60,48 +60,8 @@ yarn dev:server
 ```
 Pronto o servidor estará rodando no localhost na porta 3000
 
-----
 ----------
-# DESCRIÇÃO DO PROJETO
 
-### A BAOBÁ - cultivando leitores
-
-Nesta semana desenvolvemos uma plataforma digital, compatível com a BNCC (Base Nacional Comum Curricular), capaz de unir a realidade da sala de aula a um universo lúdico e divertido, focada no ensino fundamental, de 3° a 9° ano.
-
-Nela, contamos com uma biblioteca com mais de 40 mil títulos de diversas categorias. 
-E dois módulos de aulas o COOP e o CLIPS.
-Ambos podem ser utilizados pelo app e ou através do WhatsApp com auxílio do nosso amigo virtual Xico.
-
-Agora você me pergunta "tá, mas o que vai despertar o interesse dos alunos?"
-
-Baobá é mais do que uma ferramenta. 
-### É UM JOGO!
-Toda atividade na plataforma gera experiência, fazendo com que os usuários cresçam suas plantinhas e assim como as plantas a evolução é cíclica, fazendo com que acumule conquistas e recompensas.
-Por falar em recompensas, temos as flores e frutos. Duas moedas, dois propósitos.
-» As flores são doações. 
-» Os frutos são usados no marketplace para compra de itens como, livros físicos e até crédito para celular.
-
- E tudo isso é registrado na ÁRVORE DO CONHECIMENTO, tanto para o professor, quanto para o aluno.
-
-### E aí, vamos juntos, plantar essa ideia e colher os frutos amanhã?
-----
-## Como rodar o template
-Com seu repositório baixado na sua máquina, execute o comando yarn na pasta do projeto clonado para instalar todas as dependências
-```shell
-git clone https://github.com/carneirodev/BaobaBackend
-```
-
-Depois de clonado rode o comando:
-```shell
-yarn
-```
-Para executar rode o comando:
-```shell
-yarn dev:server
-```
-Pronto o servidor estará rodando no localhost na porta 3000
-
-----
 
 # Rotas da API
 ### Link da API: [http://ec2-18-231-167-59.sa-east-1.compute.amazonaws.com:3000](http://ec2-18-231-167-59.sa-east-1.compute.amazonaws.com:3000/)
